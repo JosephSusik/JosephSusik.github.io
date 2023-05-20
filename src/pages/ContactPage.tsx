@@ -23,8 +23,8 @@ function ContactPage(props:any) {
 
     return(
         <section className="contact-page" id="contact">
-            <p ref={props.refer}>Get in touch!</p>
-            <button onClick={changeMail} title="Click to copy"><span><FaEnvelope />{mail? "Copied to clipboard!":"joseph.susik@gmail.com"}</span><FaClone className="icon-copy"/></button>
+            <p>Get in touch!</p>
+            <button ref={props.refer} onClick={changeMail} title="Click to copy"><span><FaEnvelope />{mail? "Copied to clipboard!":"joseph.susik@gmail.com"}</span><FaClone className="icon-copy"/></button>
             <button onClick={changeDiscord} title="Click to copy"><span><FaDiscord />{discord? "Copied to clipboard!":"Pepa#7580"}</span><FaClone className="icon-copy"/></button>
         </section>
     );
