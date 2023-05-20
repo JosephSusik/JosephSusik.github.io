@@ -1,8 +1,8 @@
 import "./styles/ExperiencePage.css"
 
-function ExperiencePage() {
+function ExperiencePage(props:any) {
     return(
-        <section className="experience-page" id='experience'>
+        <section className="experience-page" id='experience' ref={props.refer}>
             <div className="institute">
                 <p className="date">September 2019 - Present</p>
                 <div className="info">

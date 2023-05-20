@@ -3,9 +3,9 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 
-function ProfilePage() {
+function ProfilePage(props:any) {
     return(
-        <section className='profile-page' id='home'>
+        <section className='profile-page' id='home' ref={props.refer}>
             <div className='profile-info'>
                 <div className='profile-name'>
                     <p>Joseph</p>

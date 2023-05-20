@@ -50,7 +50,34 @@ nav ul {
 nav a {
     text-decoration: none;
     color: inherit;
+    transition: all .2s linear;
 }
+
+nav a:hover {
+    color: var(--emph);
+}
+
+#about-btn::after, #experience-btn::after, #contact-btn::after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 0px;
+    width: 0px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--emph);
+    transition: width .5s ease, background-color .5s ease;
+}
+
+#about-btn.active, #experience-btn.active, #contact-btn.active{
+    color: var(--emph);
+}
+
+#about-btn.active::after,
+#experience-btn.active::after,
+#contact-btn.active::after {
+    width: 100%;
+}
+
 
 /*MOBILE*/
 @media only screen and (max-width: 767px) {

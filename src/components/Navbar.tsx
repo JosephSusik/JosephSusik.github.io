@@ -22,9 +22,9 @@ function Navbar() {
             <nav>
                 <a href="#home" className="nav-logo">[JS]</a>
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about" id="about-btn">About</a></li>
+                    <li><a href="#experience" id="experience-btn">Experience</a></li>
+                    <li><a href="#contact" id="contact-btn">Contact</a></li>
                 </ul>
                 <DarkModeToggle />
             </nav>

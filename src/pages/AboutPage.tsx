@@ -2,11 +2,11 @@ import './styles/AboutPage.css'
 
 import { FaAngleRight } from "react-icons/fa";
 
-function AboutPage() {
+function AboutPage(props:any) {
     return(
         <section className="about-page" id="about">
             <div className='about-page-rows'>
-                <div className='about-page-cols'>
+                <div className='about-page-cols' ref={props.refer}>
                     <div className='about-techstack'>
                         <p className='greet'>Tech Stack</p>
                         <ul>

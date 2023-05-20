@@ -28,10 +28,7 @@
     color: var(--emph);
 }
 
-#light-mode-button.active::after {
-    width: 100%;
-}
-
+#light-mode-button.active::after,
 #dark-mode-button.active::after {
     width: 100%;
 }

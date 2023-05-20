@@ -5,7 +5,7 @@ import { FaDiscord } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaClone } from "react-icons/fa";
 
-function ContactPage() {
+function ContactPage(props:any) {
     const [mail, setMail] = useState(false);
     const [discord, setDiscord] = useState(false);
 
@@ -23,7 +23,7 @@ function ContactPage() {
 
     return(
         <section className="contact-page" id="contact">
-            <p>Get in touch!</p>
+            <p ref={props.refer}>Get in touch!</p>
             <button onClick={changeMail} title="Click to copy"><span><FaEnvelope />{mail? "Copied to clipboard!":"joseph.susik@gmail.com"}</span><FaClone className="icon-copy"/></button>
             <button onClick={changeDiscord} title="Click to copy"><span><FaDiscord />{discord? "Copied to clipboard!":"Pepa#7580"}</span><FaClone className="icon-copy"/></button>
         </section>
