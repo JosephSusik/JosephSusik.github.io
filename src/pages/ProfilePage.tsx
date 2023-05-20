@@ -19,7 +19,7 @@ function ProfilePage() {
                     <a className='download-cv' href='./cv/josephsusik.pdf' download='josephsusik.pdf'>Download CV</a>
                 </div>
             </div>
-            <img className='profile-img' src="./img/5.jpg" alt="" />
+            <img className='profile-img' src={require('../5.jpg')} alt="" />
         </section>
     );
 }
