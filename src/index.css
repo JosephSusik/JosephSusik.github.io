@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+
+  user-select: none;
+  overscroll-behavior: none;
+
+  transition: background .5s;
+}
+
+:root {
+  --nav-height: 64px;
+  --footer-height: 64px;
+  --padding-side: 64px;
+
+  --border-radius: 5px;
+}
+
+section {
+  padding-top: calc(var(--nav-height));
+  padding-bottom: calc(var(--nav-height));
+  padding-left: var(--padding-side);
+  padding-right: var(--padding-side);
+
+  min-height: calc(100vh - var(--nav-height) - 64px);
+
+  background: var(--background);
+}
+
+/*Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--background);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  background: var(--color);
+
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 767px) {
+  section {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

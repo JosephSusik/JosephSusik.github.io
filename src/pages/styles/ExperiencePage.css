@@ -1,0 +1,24 @@
+.experience-page {
+    padding-top: calc(var(--nav-height) + 32px);
+    padding-bottom: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.experience-page .institute {
+    padding: 8px 16px;
+    border: 1px solid var(--color);
+    border-radius: var(--border-radius);
+    height: max-content;
+    width: 75%;
+
+    display: flex;
+    gap: 24px;
+}
+
+.experience-page .date {
+
+}

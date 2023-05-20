@@ -1,0 +1,15 @@
+.footer {
+    height: var(--footer-height);
+    width: 100%;
+    border-top: 2px solid var(--color);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
