@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/JosephSusik.github.io/static/css/main.03c86c2e.css",
+    "main.css": "/JosephSusik.github.io/static/css/main.f1abaa0a.css",
     "main.js": "/JosephSusik.github.io/static/js/main.d06950ba.js",
     "index.html": "/JosephSusik.github.io/index.html",
-    "main.03c86c2e.css.map": "/JosephSusik.github.io/static/css/main.03c86c2e.css.map",
+    "main.f1abaa0a.css.map": "/JosephSusik.github.io/static/css/main.f1abaa0a.css.map",
     "main.d06950ba.js.map": "/JosephSusik.github.io/static/js/main.d06950ba.js.map"
   },
   "entrypoints": [
-    "static/css/main.03c86c2e.css",
+    "static/css/main.f1abaa0a.css",
     "static/js/main.d06950ba.js"
   ]
 }
