@@ -78,17 +78,18 @@
 
 .about-text a {
     color: inherit;
+    text-underline-offset: 4px;
 }
 
 .emph {
-    color: var(--emph);
+    color: inherit;
 }
 
 .about-page .image-gallery {
     display: flex;
     gap: 16px;
     
-    width: 100%;
+    width: 100%;    
     height: 100%;
 
     justify-content: center;

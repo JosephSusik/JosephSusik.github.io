@@ -10,15 +10,50 @@
 
 .experience-page .institute {
     padding: 8px 16px;
-    border: 1px solid var(--color);
-    border-radius: var(--border-radius);
     height: max-content;
-    width: 75%;
 
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     gap: 24px;
 }
 
 .experience-page .date {
+    padding: 8px 16px;
+    border: 1px solid var(--color);
+    border-radius: var(--border-radius);
 
+    display: flex;
+    flex-direction: column;
+
+    width: 152px;
+
+    justify-content: center;
+    justify-self: end;
+
+    align-items: center;
+
+    height: max-content;
+    font-size: 18px;
+}
+
+.experience-page .info {
+    padding: 8px 16px;
+    border: 1px solid var(--color);
+    border-radius: var(--border-radius);
+
+    width: 80%;
+}
+
+.experience-page .info .title {
+    font-size: 20px;
+}
+
+.experience-page .info ul {
+    list-style: none;
+}
+
+.experience-page .info li {
+    display: flex;
+    align-items: center;
 }
